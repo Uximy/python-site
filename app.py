@@ -11,7 +11,7 @@ from flask_admin.contrib.sqla import ModelView
 
 app = Flask(__name__)
 db = SQLAlchemy(app)
-database_location = os.getcwd()+'../../app.db'
+database_location = os.getcwd()+'/app.db'
 app.config['SECRET_KEY'] = 'secret_key'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('postgresql://iognetbymwstex:a35471c6532c6c6b0099cd7718fdfb846cafda2c846919389b38cdb17a59396d@ec2-54-73-58-75.eu-west-1.compute.amazonaws.com:5432/dallsqsdsc5i7b') or 'sqlite:///'+database_location

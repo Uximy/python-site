@@ -1,5 +1,4 @@
 from flask import Flask, app
-import flask
 from flask_rest_jsonapi import Api, ResourceDetail, ResourceList
 from flask_sqlalchemy import SQLAlchemy
 import os

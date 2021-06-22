@@ -6,11 +6,13 @@ Flask-Cors==3.0.10
 Flask-REST-JSONAPI==0.31.2
 Flask-SQLAlchemy==2.5.1
 greenlet==1.1.0
+gunicorn==20.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.1
 MarkupSafe==2.0.1
 marshmallow==3.12.1
 marshmallow-jsonapi==0.24.0
+psycopg2==2.9.1
 six==1.16.0
 SQLAlchemy==1.4.18
 Werkzeug==2.0.1
